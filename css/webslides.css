@@ -3789,3 +3789,23 @@ Slides Index
 
 .text-slide-number {
   color: #abc; }
+
+.buttonself{
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: green;
+  color: white;
+}
+
+.buttonlink{
+  background-color: gray;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+}
