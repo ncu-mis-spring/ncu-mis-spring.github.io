@@ -26,8 +26,6 @@
             top: 100px;
         }
     </style>
-    <script type='text/javascript' src='http://cdn.staticfile.org/jquery/2.1.1/jquery.min.js'></script>
-    <script type="text/javascript" src="http://cdn.staticfile.org/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
 </head>
 <body>
     <main role="main">
@@ -35,7 +33,7 @@
             <!-- Path: 首頁(簡報封面)#page1 -->
             <section>
                 <span class="background" style="background-image:url('images/plum.jpg')"></span>
-                <div class="wrap" style="height: 0px">
+                <div class="wrap" style="top: 100px; left: 100px;">
                     <h1 style="color:beige">
                         <strong>
                             春分
@@ -43,9 +41,9 @@
                     </h1>
                 </div>
                 <div id="qrcode" class="wrap" style="left: 1000px"></div>
-                <script>
-	                $('#qrcode').qrcode({width: 250,height: 250,text:"https://ncu-mis-spring.github.io/#slide=1"});
-                </script>
+                <div style="left: 1000px ; top: -50px;" class="wrap">
+                    <img src="images/qrcode.png" width="250" height="250" >
+                </div>
             </section>
             <!--春分簡介按鈕#page2-->
             <section>
